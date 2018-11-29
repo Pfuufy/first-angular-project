@@ -1,0 +1,5 @@
+<h3 
+[ngStyle]="{backgroundColor: getBackgroundColor(),borderColor: getBorderColor()}"
+[ngClass]="{online : serverStatus === 'Online'}">
+The status of {{ 'server ' }} {{ serverId }} is {{ getServerStatus() }}
+</h3>
